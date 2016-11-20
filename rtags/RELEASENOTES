@@ -1,0 +1,43 @@
+rtags.rb - 
+
+Release Version: 0.96 (April 2006) by Pjotr Prins
+	Improved filtering on repository files (skip _darcs, CVS, .SVN)
+	Test for hash bang Ruby - if no .rb extension
+
+Release Version: 0.95 (December 2006) by Pjotr Prins
+	Added -R/--recurse switch by Chetan Patil
+	Added regression tests for recursion
+
+Release Version: 0.94 (December 2006) by Pjotr Prins
+	Added support for ClassName.new tags - which point to the
+	  Class def initialize methods
+
+Release Version: 0.93 (August 2006) by Pjotr Prins
+  Fixed bug where multiple lines were written to tags file - which
+  	broke them for vi
+	Fixed infinite loop for specific cases
+	Added -a switch (append mode)
+	Turned warnings off by default (-w switch)
+	Included RELEASENOTES in gem
+	More regression testing (-a, tags, TAGS)
+	Run regression test before making a release
+
+Release Version: 0.92 (August 2006) by Pjotr Prins
+	Added catching of parse errors
+	Fixed exit on 'alias' token error (`parse_alias': undefined method `name')
+	Added support for command line arguments with optparse
+	Added debug switches (--debug, --debug_tokens)
+	Print to stderr on debug
+	Added support for alternate tags filename (-f switch)
+	Added --quiet switch
+	Added regression files to ./test
+
+Release Version: 0.91 (July 2006) by Pjotr Prins
+  First independent public release on RubyForge
+  Depends on irb 0.9
+	Wrote install.sh and gem packaging
+           
+Release Version: 0.9 (2002/07/09) by Keiju ISHITSUKA
+  Released as part of irb source tree
+
+
