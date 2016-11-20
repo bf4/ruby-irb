@@ -1,0 +1,25 @@
+irb関連おまけツールとライブラリ
+				$Release Version: 0.9 $
+			   	$Revision: 1.5 $
+			   	$Date: 2002/07/09 10:26:27 $
+			   	by Keiju ISHITSUKA(Nihon Rational Co.,Ltd.)
+
+コマンド:
+* rtags		-- ruby tags command
+
+関数ライブラリ:
+* xmp		-- irb version of gotoken xmp-function
+
+クラスライブラリ:
+* frame.rb      -- frame tracer
+* completion.rb -- irb completor
+
+
+installのしかた
+
+% ruby inst-irbtools.rb
+
+を実行してください. 必要なファイルがrubyのインストールディレクトリにイン
+ストールされます.
+
+その他, irb-toolsの使い方など詳しくは doc/irb-tools.rd.jp を参照してください.
